@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src = ../goodtry.js></script>
+<link rel="stylesheet" href="../Style/style.css">
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="ZaeemQureshi.html">Zaeem Qureshi</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="ZaeemQureshi.html">Home</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="TechnicalSkills.html">Technical Skills</a></li>
+      <li class="active"><a href="WorkExperience.html">Work Experience</a></li>
+      <li><a href="Extracurricular.html">Extracurricular</a></li>
+    </ul>
+  </div>
+</nav>
+
+</head>
+
+
+<body>
+
+<div class="jumbotron">
+<div class="container">
+<center><h1>Work Experience</h1></center>
+</div>
+</div>
+
+
+<main>
+<div class="row equal">
+  <div class="col-lg-6 container-fluid card">
+
+<h3>Shoppers Drug Mart</h3>
+<p>During my short time at Shoppers Drug Mart, I learned a lot about what it means to be a team player. I worked with a group of amazing and unique individuals.
+Though, the job itself was not very technical, it definitely helped me grow in to a more mature and well rounded individual. My respnsibilities included Customer Service,
+manning the cash register, and organizing the store room and overstock. I had a fantastic time here, and I am sure I can use some skills that I acquired here in all aspects of my life.</p>
+</div>
+
+<div class="col-lg-6 container-fluid card">
+<h3>Private Tutor for Gr 7 Student</h3>
+<p>During my time teaching a young 7th grade student various subjects (primarily math) I learned a lot about communication. The material itself was a piece of cake, but explaining it in a way that would enable
+the student to understand me was a  different kind of challenge. It forcedm me to think as the student would think, be able to relate to him and explain the material in a way that he would find engaging and exciting.
+I am glad to say, the student improved dramatically from before my tutelage</p>
+</div>
+</div>
+
+</main>
+
+</body></html>
