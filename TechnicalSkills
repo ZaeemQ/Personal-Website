@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src = ../goodtry.js></script>
+<link rel="stylesheet" href="../Style/style.css">
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="ZaeemQureshi.html">Zaeem Qureshi</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="ZaeemQureshi.html">Home</a></li>
+      <li><a href="Education.html">Education</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li class="active"><a href="TechnicalSkills.html">Technical Skills</a></li>
+      <li><a href="WorkExperience.html">Work Experience</a></li>
+      <li><a href="Extracurricular.html">Extracurricular</a></li>
+    </ul>
+  </div>
+</nav>
+
+</head>
+
+<body>
+
+<div class="jumbotron">
+<div class="container">
+<center><h1>Technical Skills</h1></center>
+</div>
+</div>
+
+
+<main>
+<div class="row equal">
+  <div class="col-lg-3 container-fluid card">
+
+
+<h3>Web Developement</h3>
+<p>I have been self teaching myself web developement for a few months now. I know the basics of HTML, CSS and javascript.
+Along with these, I have taught myself how to work with bootstrap for quick and easy solutions to my webdev needs.</p>
+</div>
+<div class="col-lg-3 container-fluid card">
+<h3>Java and C</h3>
+<p>I am quite familiar with Java, I have been using it since approximately 2010. Most of my courses that have taught various aspects of
+computer science used Java as their language of choice. I took an extra course in C to learn moer about pointers and take a closer look at a lower level language.</p>
+</div>
+<div class="col-lg-3 container-fluid card">
+<h3>Excellent Oral and Written Communication, and Technical Report Skills </h3>
+<p>I have always been quite good with my words, and that has usually translated well to a written medium as well. This was further proven upon taking a professional communication
+course at University. I got very nearly a perfect score in the course, and glowing praise from my prof. He has agreed to be a source for me for my job seeking ventures.</p>
+</div>
+<div class="col-lg-3 container-fluid card">
+<h3>Electrical Engineering Skills</h3>
+<p>From my few years as an Electrical Engineering student, I have garnered some skills in that field. I can read circuits, voltages, as well as some circuit design in Quartus software.
+Though Electrical Engineering is behind me, I have included these details for the chance that they might be relevant to anyone viewing this online resume.</p>
+</div>
+
+
+
+
+
+</main>
+
+</body></html>
