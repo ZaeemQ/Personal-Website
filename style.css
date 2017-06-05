@@ -6,6 +6,7 @@ body
 
 .dropdown{
   padding: 20px;
+  position: fixed;
 }
 
 .dropdown p{
