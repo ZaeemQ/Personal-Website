@@ -27,7 +27,7 @@ body
 .jumbotron{
   font-family: fantasy;
   border: 1px solid  grey;
-  background-image: url( ../img/woodplank.jpeg);
+  background-image: url(https://rawgit.com/ZaeemQ/personalwebsite/master/woodplank.jpeg);
   background-size: contain;
 }
 
