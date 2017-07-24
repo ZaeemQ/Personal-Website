@@ -6,7 +6,7 @@ body
 
 .dropdown{
   padding: 20px;
-width: 100%;
+  float: left;
 }
 
 .dropdown p{
@@ -14,7 +14,8 @@ width: 100%;
 }
 
 .dropdown button{
-  width:100%;
+  width:50%;
+    float: left;
 }
 .card{
   padding: 20px;
