@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-size:1.2em;
+    line-height: 1.6;
+}
+
+#landing{
+    background-image:url('../img/landing.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainbox p, h1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing .button{
+    font-size: 18px;
+    color:black;
+    text-decoration: none;
+    border: black 1px solid;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+#landing .button:hover{
+    background-color: black;
+    color: white;
+}
+
+#landing p {
+    padding-bottom: 20px;
+}
+
+.navbar{
+    margin-bottom: 0;
+    background-color: #122F4B;
+}
+
+  main{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+  
+  }
+  .parallax-body, .parallax{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .parallax-img{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
+
+  .parallax-landing{
+    min-height:93%;
+  }
+
+  .parallax-section{
+      min-height:400px;
+    }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#122F4B;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  @media(max-width:568px){
+    .parallax-img{
+      background-attachment:scroll;
+    }
+  }
+  

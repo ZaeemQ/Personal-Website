@@ -1,55 +1,69 @@
 <!DOCTYPE html>
-
+<html class='parallax' lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="https://rawgit.com/ZaeemQ/personalwebsite/master/style.css">
-
+  <title>Education</title>
+  <link rel="stylesheet" href="css/style.css">
 
   <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Zaeem Qureshi</a>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Zaeem Qureshi</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href=#>Education</a></li>
+          <li><a href="Projects.html">Projects</a></li>
+          <li><a href="TechnicalSkills.html">Technical Skills</a></li>
+          <li><a href="WorkExperience.html">Work Experience</a></li>
+          <li><a href="Extracurricular.html">Extracurricular</a></li>
+        </ul>
       </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href=#>Education</a></li>
-        <li><a href="Projects.html">Projects</a></li>
-        <li><a href="TechnicalSkills.html">Technical Skills</a></li>
-        <li><a href="WorkExperience.html">Work Experience</a></li>
-        <li><a href="Extracurricular.html">Extracurricular</a></li>
-      </ul>
-    </div>
-  </nav>
+    </nav>
 </head>
 
 
-<body>
-    <div class="jumbotron">
-      <div class="container">
-        <center><h1>Education</h1></center>
-      </div>
+<body class="parallax-body">
+  <div class="pimg1 parallax-img parallax-landing" style='background-image:url(img/education-landing.jpeg)'>
+    <div class="ptext">
+      <span class="border">
+        Education
+      </span>
     </div>
+  </div>
 
+  <div class="parallax-img parallax-section" style='background-image:url(img/uottawa.jpg)'>
+    <div class="ptext">
+      <span class="border trans">
+        University of Ottawa
+      </span>
+    </div>
+  </div>
 
-<main>
-    <div class="row equal">
-      <div class=  "col-lg-6 container-fluid card">
-        <h2>University of Ottawa</h2>
-        <h3><i>2013-</i></h3>
-        <p>I have been attending the University of Ottawa since September 2013. Initially, I had been enrolled in Electrical Engineering and Computing Technologies double major, for which I had recieved a $2000/year scholarship from Nortel. After two years, however, I decided that Electrical Engineering was not for me, and so switched to Computer Science, which I have been enrolled in since.</p>
-        </div>
+  <section class="section section-light">
+    <p>
+        I have been attending the University of Ottawa since September 2013. Initially, I had been enrolled in Electrical Engineering and Computing Technologies double major, for which I had recieved a $2000/year scholarship from Nortel. After two years, however, I decided that Electrical Engineering was not for me, and so switched to Computer Science, which I have been enrolled in since.
+    </p>
+  </section>
 
-        <div class=  "container-fluid col-lg-6 card">
-          <h2>St. Benedict C.S.S</h2>
-          <h3><i>2009-2013</i></h3>
-         <p>  St. Benedict was the highschool I attended in Cambridge Ontario.</p>
-          </div>
-        </div>   
-</main>
+  <div class="parallax-img parallax-section" style='background-image:url(img/stbenedict.jpg)'>
+    <div class="ptext">
+      <span class="border trans">
+        St. Benedict Catholic Secondary School
+      </span>
+    </div>
+  </div>
 
-</body>
+  <section class="section section-dark">
+    <p>
+        St. Benedict was the highschool I attended in Cambridge Ontario
+    </p>
+  </section>
