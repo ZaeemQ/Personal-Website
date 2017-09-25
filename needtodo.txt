@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 change shoppers in the project page
 lower resolution of images
 fix for mobile
 add things in the project page
 figure out why its not working on other web browsers
+=======
+change shoppers in the project page
+lower resolution of images
+fix for mobile
+add things in the project page
+figure out why its not working on other web browsers
+>>>>>>> 28478a53e15ff6a94c7c5744894c26a6d64cbf90
