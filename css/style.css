@@ -40,10 +40,7 @@ body{
     padding: 10px 20px;
     border-radius: 100px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cfe337baa03f92e9d97fef98b9e206ed71b3e75d
 .button:hover{
     background-color: black;
     color: white;
@@ -84,7 +81,7 @@ body{
   }
 
   .parallax-landing{
-    min-height:93%;
+    min-height:100%;
   }
 
   .parallax-section{
