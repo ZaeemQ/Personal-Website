@@ -19,6 +19,12 @@ body{
     align-items: center;
 }
 
+#mainbox{
+  background: rgba(69, 151, 230, 0.6);
+  padding: 30px;
+  border-radius: 60px;
+}
+
 #mainbox p, h1{
     display:flex;
     flex-direction: column;
@@ -34,6 +40,10 @@ body{
     padding: 10px 20px;
     border-radius: 100px;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> cfe337baa03f92e9d97fef98b9e206ed71b3e75d
 .button:hover{
     background-color: black;
     color: white;
@@ -110,16 +120,37 @@ body{
   .ptext .border{
     background-color:#111;
     color:#fff;
-    padding:20px;
+    padding:30px 80px;
+  }
+    
+  span.border.trans{
+    background:#122F4B;
+    line-height: 200%;
+    padding: 30px 10px;
+    
   }
   
-  .ptext .border.trans{
-    background-color:transparent;
-  }
-  
-  @media(max-width:568px){
+  @media(max-width:778px){
     .parallax-img{
       background-attachment:scroll;
     }
+
+    #buttons{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .button{
+      margin: 3%;
+      padding: 5%;
+      font-size: 35px;
+    }
+    
   }
   
+  @media(max-width: 876px){
+  .navbar-header a{
+    display: none;
+  }
+}
